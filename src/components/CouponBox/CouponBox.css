@@ -1,0 +1,103 @@
+.coupon-box {
+  margin: 25px 0;
+  padding: 22px;
+  border: 1px solid
+    rgba(124, 92, 255, 0.25);
+  border-radius: 20px;
+  background:
+    rgba(124, 92, 255, 0.05);
+}
+
+.coupon-heading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.coupon-heading > span {
+  font-size: 1.6rem;
+}
+
+.coupon-heading h3 {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.coupon-heading p {
+  margin-top: 5px;
+  color: #777c91;
+  font-size: 0.68rem;
+}
+
+.coupon-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.coupon-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid
+    rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  outline: none;
+  background:
+    rgba(255, 255, 255, 0.04);
+  color: white;
+}
+
+.coupon-form button {
+  padding: 0 20px;
+  border: none;
+  border-radius: 12px;
+  background:
+    linear-gradient(
+      135deg,
+      #7c5cff,
+      #00bce8
+    );
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.coupon-applied {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  padding: 13px;
+  border-radius: 12px;
+  background:
+    rgba(0, 230, 168, 0.08);
+}
+
+.coupon-applied div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.coupon-applied strong {
+  color: #00e6a8;
+}
+
+.coupon-applied span {
+  color: #777c91;
+  font-size: 0.65rem;
+}
+
+.coupon-applied button {
+  border: none;
+  background: transparent;
+  color: #ff6078;
+  cursor: pointer;
+}
+
+.coupon-message {
+  margin-top: 10px;
+  color: #ff6078;
+  font-size: 0.68rem;
+}
